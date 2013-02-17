@@ -20,11 +20,6 @@
           <?php endif; ?>
         </div>
       <?php endif; ?>
-      <?php if ($page['header']): ?>
-        <div id="header-region">
-          <?php print render($page['header']); ?>
-        </div>
-      <?php endif; ?>
     </header> <!-- /header -->
     <div id="main" class="clearfix" role="main">
       <div id="content-wrapper">
