@@ -1,0 +1,248 @@
+/* Custom CSS for Andrew-Lawes.com */
+/* Written by Alex Shepherd 2012 */
+
+body {
+  background: white url('../images/bg_texture.png');
+  font-size: 10.5pt;
+}
+
+body.maintenance-page #header,
+body.maintenance-page #footer {
+  display: block;
+  width: 980px;
+}
+
+body.maintenance-page #content {
+  width: 980px;
+  background: white url('../images/main_maintenance.png') repeat-y;
+  text-align: center;
+  font-size: 18pt;
+}
+
+body.maintenance-page #content-content {
+  line-height: 2em;
+}
+
+h1, h2, h3 {
+  font-family: 'Allura', cursive;
+}
+
+h1 {
+  font-size: 41pt;
+}
+
+h1.title {
+  padding-bottom: 0px;
+}
+
+h2 {
+  font-size: 40pt;
+}
+
+a:link, a:hover, a:visited {
+  color: #876d17;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#page-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1097px;
+  background: transparent url('../images/shadow.png') repeat-y;
+}
+
+.with-navigation .sidebar {
+  margin-top: 50px;
+}
+
+#header {
+  height: 193px;
+  border-right: 1px solid #b8b791;
+  border-left: 1px solid #b8b791;
+  border-bottom: 1px solid #b8b791;
+  text-align: center;
+  background: transparent url('../images/header.png') no-repeat;
+  padding: 0px;
+}
+
+#header #site-name {
+  padding-bottom: 0px;
+  font-size: 94pt;
+  font-family: 'Allura', cursive;
+}
+
+#header #site-name a:link, #header #site-name a:hover, #header #site-name a:visited {
+  color: #473e20;
+  text-decoration: none;
+}
+
+#header #site-slogan {
+  color: #876d17;
+  font-size: 19pt;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+
+#navigation {
+  background: transparent url('../images/menu_bg.png') no-repeat;
+  height: 50px;
+  width: 1000px;
+  margin-left: -6px;
+  font-size: 22pt;
+  line-height: 43px;
+}
+
+#navigation a {
+  color: #fcfbf0;
+}
+
+ul#primary {
+  width: 985px;
+  text-align: center;
+}
+
+ul#primary li {
+  display: inline;
+  list-style-type: none;
+  margin-left: -6px;
+  margin-right: -5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 1px solid #fcfbf0;
+  border-right: 1px solid #fcfbf0;
+}
+
+ul#secondary {
+  text-align: right;
+  line-height: 40px;
+  margin: 0px;
+  position: relative;
+  right: 10px;
+}
+
+ul#secondary li {
+  font-size: 14pt;
+  padding: 0px 10px 0px 10px;
+  display: inline;
+  list-style-type: none;
+}
+
+#content {
+  padding: 2em;
+  padding-top: 1em;
+  border-right: 1px solid #b8b791;
+  border-left: 1px solid #b8b791;
+  background: #f8f8ed url('../images/main.png') repeat-y;
+}
+
+#content-inner {
+  padding: 20px 20px 20px 20px;
+}
+
+#content h2 a:link, #content h2 a:hover, #content h2 a:visited {
+  color: #473e20;
+}
+
+#content .node-teaser {
+  padding-bottom: 2em;
+}
+
+#sidebar-second {
+  font-size: 12pt;
+  border-right: 1px solid #b8b791;
+/*  border-left: 1px solid #b8b791;
+  background: transparent url('../images/sidebar_texture.jpg');*/
+  background: transparent;
+}
+
+#sidebar-second #block-search-form, #sidebar-second #block-simple_subscription-subscribe {
+  text-align: center;
+}
+
+#sidebar-second #block-simple_subscription-subscribe {
+  font-size: 9pt;
+}
+
+#sidebar-second h2 {
+  font-size: 25pt;
+}
+
+#sidebar-second .title, #sidebar-second .block-title {
+  text-align: center;
+}
+
+#sidebar-second #block-block-3,
+#sidebar-second #block-block-4 {
+  padding-bottom: 0em;
+}
+
+#sidebar-second #block-block-3 img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#sidebar-second #block-block-3 p,
+#sidebar-second #block-block-4 p {
+  text-align: center;
+}
+
+#sidebar-second #block-block-4 p {
+}
+
+#sidebar-second #block-block-1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidebar-second table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+}
+
+#sidebar-second table td.edit,
+#sidebar-second table td.delete {
+  font-size: 7pt;
+}
+
+#sidebar-second .block {
+  padding-bottom: 1.5em;
+}
+
+#footer {
+  position: relative;
+  text-align: center;
+  line-height: 60px;
+  border: 1px solid #b8b791;
+  background: white url('../images/footer_paper.jpg') no-repeat;
+}
+
+#disqus_thread {
+  margin-top: 1em;
+}
+
+.sharethis-buttons {
+  position: absolute;
+  left: -107px;
+  border: 1px solid #b8b791;
+  border-right: 0px;
+  padding: 10px;
+  background-color: #ffffcf;
+}
+
+.sharethis-buttons span {
+  display: block;
+}
+
+#admin-menu {
+  font-size: 9pt;
+}
+
+#toolbar div.toolbar-menu {
+  padding: 0px 50px 0px 10px;
+}
